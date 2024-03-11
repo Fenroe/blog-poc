@@ -1,10 +1,12 @@
 ---
 import MainHead from "./MainHead.astro";
+import "../styles/global.css";
 
 interface Props {
   title?: string;
   description?: string;
 }
+
 const { title = "Blog", description = "This is a blog" } = Astro.props;
 ---
 
